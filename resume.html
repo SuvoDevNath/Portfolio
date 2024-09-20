@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+
+  <body>
+    <div class="flex flex-col bg-zinc-900">
+      <!-------nav start------------>
+      <div
+        class="bg-zinc-900 h-14 w-full flex justify-between items-center fixed md:h-28 lg:h-28 xl:h-32 xl:px-7 xl:static xs:bg-red-800"
+      >
+        <div class="flex justify-between items-end">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9 pl-2 xl:h-16 ml-2"
+            alt=""
+          />
+          <h1 class="pl-2 pb-2 xl:pb-4 font-bold text-white xl:text-2xl">
+            Suvo <span class="text-gray-500 font-normal">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="sm: hidden md:hidden lg:flex xl:text-base font-medium">
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="px-4 text-gray-500 hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <button
+          class="text-white lg:hidden ml-[300px] absolute z-30 pr-4 pt-3"
+          id="menu-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 mr-3"
+          >
+            <path
+              class="z-10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <!-------button End-------------->
+        <!-------Extra slide start-------------->
+
+        <div
+          class="h-[670px] w-[390px] ml-0 mt-[725px] bg-neutral-800 p-10 fixed hidden translate-x-10 transition duration-1000 ease-in-out"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out">
+              <a
+                href="home.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------Extra slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+
+
+      <!------- heading start------->
+      <div
+        class="xl:h-44 border-t-[2px] border-b-[2px] border-neutral-800 mt-14 py-8 pl-5 flex flex-col xl:flex-row xl:mt-0 xl:justify-between"
+      >
+        <div class="text-center flex items-center xl:pl-14">
+          <h1 class="text-4xl font-bold text-white xl:text-5xl">Resume</h1>
+        </div>
+        <div class="text-start flex items-start xl:pr-14 xl:-mt-5">
+          <h1
+            class="font-light text-gray-500 xl:pt-2 xl:text-md xl:font-semibold"
+          >
+            5 Years of Experience
+          </h1>
+        </div>
+      </div>
+      <!--------heading end-------->
+
+
+
+
+      <!-- ----------Education & Experience start------------------- -->
+      <div class="xl:flex">
+        <!-------Education  Start--------->
+        <div
+          class="mt-10 text-white flex flex-col items-center xl:ml-64 xl:flex-col xl:mt-20 xl:w-[680px]"
+        >
+          <div class="pl-5 h-full">
+            <!-------temp start--------->
+            <div class="h-14 w-1/2 flex justify-center flex-col pl-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Education
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+            <!-------temp end--------->
+
+            <div class="ml-8 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University University. I expect to
+                  be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-------------------->
+          <div class="pl-5 h-full">
+            <div class="ml-8 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="mt-10 ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2015 - 2017
+                </h1>
+                <h1 class="mt-10 ml-5 text-xs text-zinc-400">
+                  Shahjalal Ciity College
+                </h1>
+              </div>
+
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  Higher Secondary Cirtificate
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I obtained a GPA of 4.00 from Science in Higher Secondary Certificate (HSC) in 2017 under Sylhet Board.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-------------------->
+          <div class="pl-5 h-full">
+            <div class="ml-8 border-l-[1px] mb-10 border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="mt-10 ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2015 - 2017
+                </h1>
+                <h1 class="w-48 mt-10 ml-5 text-xs text-zinc-400">
+                  Rangpani Captain Rashid High School
+                </h1>
+              </div>
+
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  Higher Secondary Cirtificate
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I obtained a GPA of 4.39 from Science in Secondary School Certificate (SSC) in 2015 under Dhaka Board.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------Education  End--------->
+
+        <!-------Experience  Start--------->
+        <div
+          class="mt-10 text-white flex flex-col items-center xl:ml-2 xl:flex-col xl:mt-20 xl:w-[680px]"
+        >
+          <div class="pl-5 h-full">
+            <div class="h-14 w-1/2 flex justify-center flex-col pl-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Experience
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+
+            <div class="ml-8 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2023 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Fiverr</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  Freelance Web Developer
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  Since 2013 I'm working as a freelance web developer in many marketplaces like Fiverr. So far, I have completed many projects with international clients that have received many accolades.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-------------------->
+          <div class="pl-5 h-full">
+            <div class="ml-8 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="mt-10 ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2018 - 2023
+                </h1>
+                <h1 class="mt-10 ml-5 text-xs text-zinc-400">
+                  CNetwork
+                </h1>
+              </div>
+
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  Junior Web Develope
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  In 2018 I've joined in CNetwork as a part-time junior web developer. I've learned a lot in this short period of time which will help me in my future work I believe.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-------------------->
+          <div class="pl-5 h-full">
+            <div class="ml-8 border-l-[1px] mb-10 border-zinc-600">
+              <div class="flex items-center">
+                <h1
+                  class="mt-10 ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-4"
+                >
+                  2016 - 2021
+                </h1>
+                <h1 class="w-48 mt-10 ml-5 text-xs text-zinc-400">
+                  Suvo's Photography
+                </h1>
+              </div>
+
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  Freelance Photographer
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  In back 2015 I first bought my camera and started my photography business in 2016. In recent years I've upgraded my skills and gears which I think adding extra spices in my photos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------Education  End--------->
+      </div>
+      <!-- ----------Education & Experience end------------------- -->
+
+
+
+
+
+
+      <!-----------Cirtificates skills start--------->
+      <div class="xl:w-[1400px] py-10 pl-9 pr-9 xl:ml-64">
+        <!-- Certificates Section start-->
+        <div class="mb-12">
+          <div
+            class="h-14 w-1/2 flex justify-center flex-col py-4 pb-10 xl:pl-3"
+          >
+            <h1 class="text-white text-xl xl:text-2xl font-bold mb-2">
+              Cirtificates
+            </h1>
+            <div class="h-0.5 w-28 bg-zinc-700">
+              <div class="h-0.5 w-14 bg-cyan-700"></div>
+            </div>
+          </div>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 xl:pl-3">
+                      <!-----first cirtificate start----------->
+
+            <div
+              class="flex items-center py-1 pl-4 pr-1 rounded-md bg-neutral-700"
+            >
+              <img
+                src="https://sabbirbinabdullatif.com/wp-content/uploads/2021/05/programming-hero.png"
+                alt="Logo"
+                class="w-16 h-16 rounded-lg mr-4"
+              />
+              <div class="bg-zinc-900 w-[800px] py-4 pl-4 rounded-r-md">
+                <h3 class="text-lg font-semibold text-white">
+                  Complete Web Development with Jhankar Mahbub
+                </h3>
+                <p class="text-sm text-gray-400">Programming Hero</p>
+                <p class="text-sm text-gray-400">31 October 2020</p>
+              </div>
+            </div>
+                      <!-----first cirtificate end----------->
+
+                      <!-----second cirtificate start----------->
+
+                      <div
+                      class="flex items-center py-1 pl-4 pr-1 rounded-md bg-neutral-700"
+                    >
+                      <img
+                        src="https://sabbirbinabdullatif.com/wp-content/uploads/2021/05/coders-foundation-1.png"
+                        alt="Logo"
+                        class="w-16 h-16 rounded-lg mr-4"
+                      />
+                      <div class="bg-zinc-900 w-[800px] py-4 pl-4 rounded-r-md">
+                        <h3 class="text-lg font-semibold text-white">
+                          logo	
+Professional WordPress Development
+
+                        </h3>
+                        <p class="text-sm text-gray-400">Coders Foundation
+                          </p>
+                        <p class="text-sm text-gray-400">13 June 2020</p>
+                      </div>
+                    </div>
+                      <!-----second cirtificate end----------->
+
+          </div>
+
+          
+        </div>
+
+        <div class="items-start justify-between xl:flex xl:w-full gap-4">
+          <!-- Design Skills Section -->
+          <div class="mb-12 xl:pl-3 xl:w-3/6">
+            <!---------------->
+            <div class="h-14 w-1/2 flex justify-center flex-col py-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Design Skills
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+            <!---------------->
+            <div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Photoshop</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Illustrator</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Adobe XD</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Figma</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coding Skills Section -->
+          <div class="xl:pl-3 xl:w-3/6">
+            <!---------------->
+            <div class="h-14 w-1/2 flex justify-center flex-col py-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Coding Skills
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+            <!---------------->
+            <div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">HTML / CSS</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 100%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">JavaScript</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">PHP</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">React</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------Cirtificates skills ends--------------->
+
+
+
+
+
+      <!----------------Footer Ends--------------------->
+      <div
+        class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+      >
+        <div class="">
+          <ul
+            class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+          >
+            <li>
+              <a href="https://www.facebook.com/suvodevnath2" class="hover:text-cyan-700 xl:text-base">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D" class="hover:text-cyan-700 xl:text-base">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/SuvoDevNath" class="hover:text-cyan-700 xl:text-base">Github</a>
+            </li>
+            <li>
+              <a href="https://x.com/home" class="hover:text-cyan-700 xl:text-base">Twiter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+          Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+            Suvo </span
+          >• All Rights Reserved
+        </div>
+      </div>
+    <!-- --------------------------Footer Ends------------------------------------- -->
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
+  </body>
+</html>

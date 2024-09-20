@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+
+
+<body >
+<div class="flex flex-col bg-zinc-900">
+
+      <!-------nav start------------>
+      <div
+        class="bg-zinc-900 h-14 w-full flex justify-between items-center fixed md:h-28 lg:h-28 xl:h-32 xl:px-7 xl:static xs:bg-red-800  "
+      >
+        <div class="flex justify-between items-end">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9 pl-2 xl:h-16 ml-2"
+            alt=""
+          />
+          <h1 class="pl-2 pb-2 xl:pb-4 font-bold text-white xl:text-2xl">
+            Suvo <span class="text-gray-500 font-normal">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="sm: hidden md:hidden lg:flex xl:text-base font-medium">
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="px-4 text-gray-500 hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <button
+          class="text-white lg:hidden ml-[300px] absolute z-30 pr-4 pt-3"
+          id="menu-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 mr-3"
+          >
+            <path
+              class="z-10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <!-------button End-------------->
+        <!-------Extra slide start-------------->
+
+        <div
+          class="h-[670px] w-[390px] ml-0 mt-[725px] bg-neutral-800 p-10 fixed hidden translate-x-10 transition duration-1000 ease-in-out"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out">
+              <a
+                href="index.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------Extra slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+
+
+
+
+<!-------portfolio tamplete start------->
+<div class=" xl:h-44 border-t-[2px] border-b-[2px] border-neutral-800  mt-14 py-8 pl-5 flex flex-col 
+xl:flex-row xl:mt-0  xl:justify-between ">
+    <div class="text-center  flex items-center xl:pl-14  ">
+        <h1 class="text-4xl font-bold text-white xl:text-5xl" >Portfolio</h1>
+    </div>
+    <div class="  text-start  flex items-start xl:pr-14 xl:-mt-5">
+        <h1 class=" font-light text-gray-500  xl:pt-2  xl:text-md xl:font-semibold">Take a look at it
+        </h1>
+    </div>
+</div>
+<!--------portfolio tamplete end-------->
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------   Start-------------------------->
+<div class="flex items-center flex-col  xl:h-[560px] bg-zinc-900">
+  <div class=" flex  flex-col items-end pb-10 pt-5">
+    <!-- Filters for categories -->
+    <div class=" mr-7">
+        <ul class=" flex justify-end space-x-4 text-white ">
+            <li class="cursor-pointer">All</li>
+            <li class="cursor-pointer">Bootstrap</li>
+            <li class="cursor-pointer">CSS</li>
+            
+        </ul>
+        <ul class=" flex  space-x-4 text-white ">
+
+          <li class="cursor-pointer">Heroku</li>
+          <li class="cursor-pointer">HTML</li>
+          <li class="cursor-pointer">JavaScript</li>
+          <li class="cursor-pointer">React</li>
+      </ul>
+    </div>
+
+    <!-- Project Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  ">
+        <!-- Card 1 -->
+        <div class="xl:w-[450px]   px-7 pt-7 pb-0 overflow-hidden ">
+            
+          <img src="https://i.pinimg.com/564x/fc/ab/35/fcab35d9c2c7c99271c072c3cf269dbd.jpg" alt="Project Image" class="rounded-md ">
+          <div class=" -mt-10 ml-3 px-3 py-1 absolute bg-cyan-700 bg-opacity-60 text-sm text-white rounded">
+            Music Player Website
+        </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="xl:w-[450px]   px-7 pt-7 pb-0 overflow-hidden ">
+          <img src="https://i.pinimg.com/564x/d7/5d/ba/d75dba5ec469ae6cbc500e307c43e228.jpg" alt="Project Image" class="rounded-md ">
+          <div class=" -mt-10 ml-3 px-3 py-1 absolute bg-cyan-700 bg-opacity-60 text-sm text-white rounded">
+            Space Science Website
+        </div>
+      </div>
+
+        <!-- Card 3 -->
+        <div class="xl:w-[450px]  px-7 pt-7  overflow-hidden ">
+          <img src="https://i.pinimg.com/736x/71/92/07/719207ac4dd5b8fa5eb86b084140a405.jpg
+          " alt="Project Image" class="rounded-md ">
+          <div class=" -mt-10 ml-3 px-3 py-1 absolute bg-cyan-700 bg-opacity-60 text-sm text-white rounded">
+            Video Streaming Website
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<!--------------------   end----------------------------->
+
+<!--------------------   Start-------------------------->
+
+<!--------------------   end----------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-------Footer STARTS---------->
+     <div
+     class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+   >
+     <div class="">
+       <ul
+         class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+       >
+         <li>
+           <a href="https://www.facebook.com/suvodevnath2" class="hover:text-cyan-700 xl:text-base">Facebook</a>
+         </li>
+         <li>
+           <a href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D" class="hover:text-cyan-700 xl:text-base">Linkedin</a>
+         </li>
+         <li>
+           <a href="https://github.com/SuvoDevNath" class="hover:text-cyan-700 xl:text-base">Github</a>
+         </li>
+         <li>
+           <a href="https://x.com/home" class="hover:text-cyan-700 xl:text-base">Twiter</a>
+         </li>
+       </ul>
+     </div>
+     <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+       Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+         Suvo </span
+       >• All Rights Reserved
+     </div>
+   </div>
+   <!--------Footer Ends-------->
+</div>
+
+
+
+
+   
+<script src="script.js" ></script>
+<script src="script2.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

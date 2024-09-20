@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Tailwind-1-portfolio</title>
+  </head>
+
+  <body>
+    <div class="xl:h-full flex flex-col bg-zinc-900">
+      <!-------nav start------------>
+      <div
+        class="bg-zinc-900 h-14 w-full flex justify-between items-center fixed md:h-28 lg:h-28 xl:h-32 xl:px-7 xl:static xs:bg-red-800"
+      >
+        <div class="flex justify-between items-end">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9 pl-2 xl:h-16 ml-2"
+            alt=""
+          />
+          <h1 class="pl-2 pb-2 xl:pb-4 font-bold text-white xl:text-2xl">
+            Suvo <span class="text-gray-500 font-normal">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="sm: hidden md:hidden lg:flex xl:text-base font-medium">
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="px-4 text-gray-500 hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <button
+          class="text-white lg:hidden ml-[300px] absolute z-30 pr-4 pt-3"
+          id="menu-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 mr-3"
+          >
+            <path
+              class="z-10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <!-------button End-------------->
+        <!-------Extra slide start-------------->
+
+        <div
+          class="h-[670px] w-[390px] ml-0 mt-[725px] bg-neutral-800 p-10 fixed hidden  transition ease-out duration-700"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out">
+              <a
+                href="home.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------Extra slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+
+
+
+      <!------CIRCLE start---------->
+      <div
+        class="w-full flex flex-col justify-center items-center text-white pt-20 xl:flex-row xl:gap-10 xl:pl-20 xl:pt-8 xl:pb-36"
+      >
+        <div
+          class="h-[13rem] w-[13rem] mt-10 rounded-full ring-[1rem] mb-2 overflow-hidden ring-cyan-900 shadow-cyan-300 shadow-[0_0px_40px_10px_rgba(0,0,0,0.3)] xl:w-[23rem] xl:h-[23rem]"
+        >
+          <img
+            src="https://i.pinimg.com/736x/03/82/8f/03828f1c4a77b78be483d26b5cc754ca.jpg"
+            class="w-80 bg-cover bg-center xl:w-96"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="flex flex-col items-center mt-10 xl:w-[40rem] xl:items-start"
+        >
+          <h1 class="text-gray-400 text-sm xl:text-lg xl:pl-12 xl:pt-10">
+            Full-stack Web Developer
+          </h1>
+          <h1 class="mt-2 mb-7 text-3xl font-bold xl:pl-12 xl:text-5xl">
+            SUVO DEV NATH
+          </h1>
+          <p class="mx-12 mt-2 font-medium text-gray-300">
+            Hey, I'm Suvo Dev Nath. I'm a freelance front-end and WordPress
+            developer based in Dhaka, Bangladesh. I've worked with companies of
+            all shapes and sizes. I spends my time working on freelance and
+            building my own projects.
+          </p>
+          <div
+            class="flex mt-5 mb-10 justify-center items-center gap-7 xl:justify-start xl:mt-5 xl:pl-12"
+          >
+            <button
+              class="ring-2 ring-cyan-700 shadow-xl rounded-3xl px-6 py-2 mt-3 hover:bg-cyan-900"
+            >
+              Download CV
+            </button>
+            <button class="ring-1 ring-white rounded-3xl px-6 py-2 mt-3">
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+      <!------CIRCLE Ends---------->
+
+      <!-----What i do start--------->
+      <div class="w-full px-5 pt-5 pb-5 xl:px-64 xl:pt-0">
+        <div class="h-14 w-1/2 flex justify-center flex-col pl-4 pb-10">
+          <h1 class="text-white text-2xl xl:text-2xl font-bold mb-1">
+            What I Do
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+
+        <div class="xl:flex xl:w-[90rem]">
+          <div class="xl:flex xl:flex-col">
+            <div class="flex ml-5 -300 mb-10 text-white xl:w-[42rem]">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8"
+                >
+                  <path
+                    class="text-cyan-700"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div class="ml-5 mr-4">
+                <h1 class="text-lg font-bold mb-2">Web Development</h1>
+                <p class="text-md">
+                  I have been involved in Web development for the last 5 years
+                  but started working from 2 years ago. So far, I have created
+                  many websites that have received many accolades. I use modern
+                  techniques to develop websites through WordPress that are
+                  search engine friendly.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex ml-5 mb-10 text-white xl:w-[42rem]">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8"
+                >
+                  <path
+                    class="text-cyan-700"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"
+                  />
+                </svg>
+              </div>
+              <div class="ml-5 mr-4">
+                <h1 class="text-lg font-bold mb-2">Photography</h1>
+                <p>
+                  I have never been into photography as a profession but I love
+                  photography very much. So I used to go out and take pictures
+                  with equipment and cameras whenever I could. I bought my first
+                  camera just 5 years ago and since then the passion for
+                  photography growing intensely.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="xl:flex xl:flex-col">
+            <div class="flex ml-5 mb-10 text-white xl:w-[42rem]">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8"
+                >
+                  <path
+                    class="text-cyan-700"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+                  />
+                </svg>
+              </div>
+              <div class="ml-5 mr-4">
+                <h1 class="text-lg font-bold mb-2">Page Speed Optimization</h1>
+                <p>
+                  I love to write even though I am not so professional at
+                  writing. For six years I have been writing about the various
+                  injustices and irregularities of society. Although my words do
+                  not stifle the heart of society, my writing gives me
+                  satisfaction. Although I'm writing only in my native language
+                  now, but it will be in English very soon.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex mx-5 mb-10 text-white xl:w-[42rem]">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8"
+                >
+                  <path
+                    class="text-cyan-700"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div class="ml-5 mr-4">
+                <h1 class="text-lg font-bold">Blogging</h1>
+                <p>
+                  I have been involved in Web development for the last 5 years
+                  but started working from 2 years ago. So far, I have created
+                  many websites that have received many accolades. I use modern
+                  techniques to develop websites through WordPress that are
+                  search engine friendly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------What i do ends------->
+
+      <!-----testimonial start------>
+      <div class="w-full px-5 pt-5 pb-16 xl:px-64">
+        <div class="h-14 w-1/2 flex justify-center flex-col pl-4 pb-10">
+          <h1 class="text-white text-2xl xl:text-2xl font-bold mb-1">
+            Testimonials
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+
+        <div class="xl:flex overflow-hidden">
+          <div class="pb-7 xl:pb-20 xl:w-1/2">
+            <div
+              class="h-20 w-20 xl:h-24 xl:w-24 bg-red-800 rounded-full overflow-hidden ml-3 xl:ml-6 xl:mt-5"
+            >
+              <img
+                src="https://sabbirbinabdullatif.com/wp-content/uploads/2021/05/testimonial-2-1.jpg"
+                class="h-20 w-22 xl:h-24 xl:w-24"
+              />
+            </div>
+
+            <div
+              class="w-60 h-auto mx-auto rounded-lg ring-1 ring-slate-400 bg-zinc-950 -mt-9 xl:w-[620px] xl:ml-14 xl:pb-8"
+            >
+              <p class="text-white italic pl-10 pr-5 pt-10 xl:text-md">
+                I'm the fuel behind the high speed of innumerable fast running
+                WordPress websites. I have lened and practices all technical
+                aspects related to WordPress. I'm the fuel behind the high speed
+                of innumerable fast runni I have lened and practices all tech
+                Only speedy
+              </p>
+              <h1 class="text-white font-bold pl-10 pt-6">Nickale D.Jacsion</h1>
+              <p class="text-white text-xs font-light pl-10 pb-7 xl:pb-0">
+                Co-Founder of Apple
+              </p>
+            </div>
+          </div>
+
+          <div class="pb-3 xl:pb-20 xl:w-1/2">
+            <div
+              class="h-20 w-20 xl:h-24 xl:w-24 bg-red-800 rounded-full overflow-hidden ml-3 xl:ml-6 xl:mt-5"
+            >
+              <img src="https://i.pinimg.com/564x/a6/20/d9/a620d9be8577730521b30e0a12732599.jpg" class="h-28 w-20 xl:h-32 xl:w-32" />
+            </div>
+
+            <div
+              class="w-60 h-auto mx-auto rounded-lg ring-1 ring-slate-400 bg-zinc-950 -mt-9 xl:w-[620px] xl:ml-14 xl:pb-8"
+            >
+              <p class="text-white italic pl-10 pr-5 pt-10 xl:text-md">
+                I'm the fuel behind the high speed of innumerable fast running
+                WordPress websites. I have lened and practices all technical
+                aspects related to WordPress. I'm the fuel behind the high speed
+                of innumerable fast runni I have lened and practices all tech
+                Only speedy
+              </p>
+              <h1 class="text-white font-bold pl-10 pt-6">Nickale D.Jacsion</h1>
+              <p class="text-white text-xs font-light pl-10 pb-7 xl:pb-0">
+                Co-Founder of Apple
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----testimonial ENDS------>
+
+      <!--------Fun facts start----------- -->
+      <div class="px-5 flex flex-col xl:flex xl:justify-around xl:px-64 pb-10">
+        <div class="h-14 w-1/2 flex justify-center flex-col pl-4 pb-10">
+          <h1 class="text-white text-2xl xl:text-2xl font-bold mb-1">
+            Fun Facts
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col xl:flex-row">
+          <div
+            class="mx-5 py-7 mb-3 flex flex-col justify-center items-center rounded-2xl ring-2 ring-neutral-700 text-white space-y-2 bg-neutral-900 xl:h-2/6 xl:w-96 xl:mb-32 xl:text-center xl:py-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#18181b"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#0e7490"
+              class="h-10 xl:h-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+              />
+            </svg>
+            <h1 class="text-base font-semibold xl:text-xl">Happy Clients</h1>
+            <h1 class="text-5xl font-semibold xl:text-6xl">20+</h1>
+          </div>
+
+          <div
+            class="mx-5 py-7 mb-3 flex flex-col justify-center items-center rounded-2xl ring-2 ring-neutral-700 text-white space-y-2 bg-neutral-900 xl:h-2/6 xl:w-96 xl:mb-32 xl:text-center xl:py-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#18181b"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#0e7490"
+              class="h-10 xl:h-10"
+            >
+              <path
+                class="text-blue-700"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <h1 class="text-base font-semibold xl:text-xl">Working Hours</h1>
+            <h1 class="text-5xl font-semibold xl:text-6xl">1200+</h1>
+          </div>
+
+          <div
+            class="mx-5 py-7 mb-3 flex flex-col justify-center items-center rounded-2xl ring-2 ring-neutral-700 text-white space-y-2 bg-neutral-900 xl:h-2/6 xl:w-96 xl:mb-32 xl:text-center xl:py-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#18181b"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#0e7490"
+              class="h-10 xl:h-10"
+            >
+              <path
+                class="text-cyan-700"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+              />
+            </svg>
+            <h1 class="text-base font-semibold xl:text-xl">
+              Projects Completed
+            </h1>
+            <h1 class="text-5xl font-semibold xl:text-6xl">100+</h1>
+          </div>
+
+          <div
+            class="mx-5 py-7 mb-1 flex flex-col justify-center items-center rounded-2xl ring-2 ring-neutral-700 text-white space-y-2 bg-neutral-900 Xl:h-2/6 xl:w-96 xl:mb-32 xl:text-center xl:py-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#18181b"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#0e7490"
+              class="h-10 xl:h-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+              />
+            </svg>
+
+            <h1 class="text-base font-semibold xl:text-xl">Tea Consumed</h1>
+            <h1 class="text-5xl font-semibold xl:text-6xl">1000+</h1>
+          </div>
+        </div>
+      </div>
+      <!--------FunFact STARTS------------>
+
+      <!-------Footer STARTS---------->
+      <div
+        class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+      >
+        <div class="">
+          <ul
+            class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+          >
+            <li>
+              <a href="https://www.facebook.com/suvodevnath2" class="hover:text-cyan-700 xl:text-base">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D" class="hover:text-cyan-700 xl:text-base">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/SuvoDevNath" class="hover:text-cyan-700 xl:text-base">Github</a>
+            </li>
+            <li>
+              <a href="https://x.com/home" class="hover:text-cyan-700 xl:text-base">Twiter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+          Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+            Suvo </span
+          >• All Rights Reserved
+        </div>
+      </div>
+      <!--------Footer Ends-------->
+    </div>
+    <!-- nav js Script start-->
+
+    <!-- nav js Script end-->
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>

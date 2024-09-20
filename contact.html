@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+
+  <body>
+    <div class="flex flex-col bg-zinc-900">
+      <!-------nav start------------>
+      <div
+        class="bg-zinc-900 h-14 w-full flex justify-between items-center fixed md:h-28 lg:h-28 xl:h-32 xl:px-7 xl:static xs:bg-red-800"
+      >
+        <div class="flex justify-between items-end">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9 pl-2 xl:h-16 ml-2"
+            alt=""
+          />
+          <h1 class="pl-2 pb-2 xl:pb-4 font-bold text-white xl:text-2xl">
+            Suvo <span class="text-gray-500 font-normal">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="sm: hidden md:hidden lg:flex xl:text-base font-medium">
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="px-4 text-gray-500 hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <button
+          class="text-white lg:hidden ml-[300px] absolute z-30 pr-4 pt-3"
+          id="menu-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 mr-3"
+          >
+            <path
+              class="z-10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <!-------button End-------------->
+        <!-------Extra slide start-------------->
+
+        <div
+          class="h-[670px] w-[390px] ml-0 mt-[725px] bg-neutral-800 p-10 fixed hidden translate-x-10 transition duration-1000 ease-in-out"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav
+              class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out"
+            >
+              <a
+                href="index.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------Extra slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+      <!-------Resume tamplete start------->
+      <div
+        class="xl:h-44 border-t-[2px] border-b-[2px] border-neutral-800 mt-14 py-8 pl-5 flex flex-col xl:flex-row xl:mt-0 xl:justify-between"
+      >
+        <div class="text-center flex items-center xl:pl-14">
+          <h1 class="text-4xl font-bold text-white xl:text-5xl">Contact</h1>
+        </div>
+        <div class="text-start flex items-start xl:pr-14 xl:-mt-5">
+          <h1
+            class="font-light text-gray-500 xl:pt-2 xl:text-md xl:font-semibold"
+          >
+            Get in Touch
+          </h1>
+        </div>
+      </div>
+      <!--------Resume tamplete end-------->
+
+      <!--------------------   Start-------------------------->
+      <div class="bg-neutral-900  text-white pt-20 xl:mb-24">
+        <div class="container mx-auto px-4">
+          <!-- Contact Info Section -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
+          >
+            <div class="bg-neutral-800 mx-5 p-6 rounded-lg text-center">
+              <div class="mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-cyan-700 mx-auto"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"
+                  ></path>
+                </svg>
+              </div>
+              <p>suvodevnath123@gmail.com</p>
+            </div>
+
+            <div class="bg-neutral-800 mx-5 p-6 rounded-lg text-center">
+              <div class="mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-cyan-700 mx-auto"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 12V8m-4 4v-4m-4 4V8m8-4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V8a2 2 0 00-2-2z"
+                  />
+                </svg>
+              </div>
+              <p>+8801736449874</p>
+            </div>
+
+            <div class="bg-neutral-800 mx-5 p-6 rounded-lg text-center">
+              <div class="mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-cyan-700 mx-auto"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
+                  ></path>
+                </svg>
+              </div>
+              <p>Sylhet, Bangladesh</p>
+            </div>
+
+            <div class="bg-neutral-800 mx-5 p-6 rounded-lg text-center">
+              <div class="mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  class="h-8 w-8 text-cyan-700 mx-auto"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M7.0943 5.68009L18.3199 16.9057C19.3736 15.5506 20 13.8491 20 12C20 7.58172 16.4183 4 12 4C10.1509 4 8.44939 4.62644 7.0943 5.68009ZM16.9057 18.3199L5.68009 7.0943C4.62644 8.44939 4 10.1509 4 12C4 16.4183 7.58172 20 12 20C13.8491 20 15.5506 19.3736 16.9057 18.3199ZM4.92893 4.92893C6.73748 3.12038 9.23885 2 12 2C17.5228 2 22 6.47715 22 12C22 14.7611 20.8796 17.2625 19.0711 19.0711C17.2625 20.8796 14.7611 22 12 22C6.47715 22 2 17.5228 2 12C2 9.23885 3.12038 6.73748 4.92893 4.92893Z"
+                  ></path>
+                </svg>
+              </div>
+              <p>Freelance Unavailable</p>
+            </div>
+          </div>
+
+          <!-- Form Section -->
+          <h2 class="text-3xl font-bold mb-8 text-center">
+            How Can I Help You?
+          </h2>
+
+          <div
+            class="flex items-center justify-center flex-col xl:flex-row gap-6 xl:-gap-[400px]"
+          >
+            <div class="flex items-center justify-center flex-col">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="w-72 bg-neutral-900 text-white border-2 border-cyan-900 p-3 rounded-md mb-4 focus:outline-none focus:border-cyan-700 focus:ring-cyan-700 xl:w-[550px]"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-72 bg-neutral-900 text-white border-2 border-cyan-900 p-4 rounded-md mb-4 focus:outline-none focus:border-cyan-700 focus:ring-cyan-700 xl:w-[550px]"
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                class="w-72 bg-neutral-900 text-white border-2 border-cyan-900 p-4 rounded-md mb-4 focus:outline-none focus:border-cyan-700 focus:ring-cyan-700 xl:w-[550px]"
+              />
+            </div>
+
+            <div class="flex items-center justify-center">
+              <textarea
+                placeholder="Message"
+                rows="5"
+                class="w-72 bg-neutral-900 text-white border-2 border-cyan-900 p-4 rounded-md mb-4 focus:outline-none focus:border-cyan-700 focus:ring-cyan-700 xl:w-[550px] xl:p-10"
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Recaptcha & Submit Button -->
+          <div class="mt-6 flex items-center">
+            <div class="mr-4 xl:mr-[186px]">
+              <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+            </div>
+            <button
+              class="bg-cyan-800 hover:bg-cyan-700 text-white px-6 py-3 ml-1 rounded-md"
+            >
+              Send message
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------   end----------------------------->
+
+      <!-------Footer STARTS---------->
+      <div
+        class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+      >
+        <div class="">
+          <ul
+            class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+          >
+            <li>
+              <a
+                href="https://www.facebook.com/suvodevnath2"
+                class="hover:text-cyan-700 xl:text-base"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D"
+                class="hover:text-cyan-700 xl:text-base"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/SuvoDevNath"
+                class="hover:text-cyan-700 xl:text-base"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://x.com/home"
+                class="hover:text-cyan-700 xl:text-base"
+                >Twiter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+          Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+            Suvo </span
+          >• All Rights Reserved
+        </div>
+      </div>
+      <!--------Footer Ends-------->
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>

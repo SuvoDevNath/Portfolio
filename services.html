@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Blog</title>
+</head>
+
+
+
+
+<body >
+<div class="flex flex-col bg-zinc-900">
+
+      <!-------nav start------------>
+      <div
+        class="bg-zinc-900 h-14 w-full flex justify-between items-center fixed md:h-28 lg:h-28 xl:h-32 xl:px-7 xl:static xs:bg-red-800"
+      >
+        <div class="flex justify-between items-end">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9 pl-2 xl:h-16 ml-2"
+            alt=""
+          />
+          <h1 class="pl-2 pb-2 xl:pb-4 font-bold text-white xl:text-2xl">
+            Suvo <span class="text-gray-500 font-normal">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="sm: hidden md:hidden lg:flex xl:text-base font-medium">
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="px-5 text-gray-500 hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="px-4 text-gray-500 hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <button
+          class="text-white lg:hidden ml-[300px] absolute z-30 pr-4 pt-3"
+          id="menu-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 mr-3"
+          >
+            <path
+              class="z-10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <!-------button End-------------->
+        <!-------Extra slide start-------------->
+
+        <div
+          class="h-[670px] w-[390px] ml-0 mt-[725px] bg-neutral-800 p-10 fixed hidden translate-x-10 transition duration-1000 ease-in-out"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out">
+              <a
+                href="index.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------Extra slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+
+
+
+<!-------Resume tamplete start------->
+<div class=" xl:h-44 border-t-[2px] border-b-[2px] border-neutral-800  mt-14 py-8 pl-5 flex flex-col 
+xl:flex-row xl:mt-0  xl:justify-between ">
+    <div class="text-center  flex items-center xl:pl-14  ">
+        <h1 class="text-4xl font-bold text-white xl:text-5xl" >Service</h1>
+    </div>
+    <div class="  text-start  flex items-start xl:pr-14 xl:-mt-5">
+        <h1 class=" font-light text-gray-500  xl:pt-2  xl:text-md xl:font-semibold">See my services and pricing
+        </h1>
+    </div>
+</div>
+<!--------Resume tamplete end-------->
+
+
+
+
+    
+<!--------------------main   Start-------------------------->
+
+
+  <!-- Services Section -->
+  <section class="p-10 xl:mx-64 ">
+<!----Tamplate start---->
+    <div class="h-14 w-1/2  flex justify-center  flex-col pb-10 xl:mt-12">
+      <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+        My services
+      </h1>
+      <div class="h-0.5 w-28 bg-zinc-700 ">
+        <div class="h-0.5 w-14 bg-cyan-700"></div>
+      </div>
+    </div>
+<!----Tamplate End---->
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Service Card 1 -->
+      <div class="bg-zinc-800 p-6 border-[1px]  hover:shadow-cyan-700 hover:shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] border-cyan-950 rounded-lg  flex flex-col items-center justify-center ">
+        <div class="mb-5" >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+          >
+            <path
+              class="text-cyan-700"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+            />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-white">E-Commerce Solutions</h3>
+        <p class="text-gray-400 mb-4 text-center">
+          I will build an eCommerce website for you with a very professional looking. I will add an e-commerce shopping cart system to your website that will allow you to sell your products and I'll integrate an online payment system through this you will be able to receive real-time credit card payments from your customers.
+        </p>
+      </div>
+      <!-- Service Card 2 -->
+      <div class="bg-zinc-800 p-6 border-[1px]   hover:shadow-cyan-700 hover:shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] border-cyan-950 rounded-lg  flex flex-col items-center justify-center ">
+        <div class="mb-5" >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+          >
+            <path
+              class="text-cyan-700"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+            />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-white">E-Commerce Solutions</h3>
+        <p class="text-gray-400 mb-4 text-center">
+          I will build an eCommerce website for you with a very professional looking. I will add an e-commerce shopping cart system to your website that will allow you to sell your products and I'll integrate an online payment system through this you will be able to receive real-time credit card payments from your customers.
+        </p>
+      </div>
+      <!-- Service Card 3 -->
+      <div class="bg-zinc-800 p-6 border-[1px]   hover:shadow-cyan-700 hover:shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] border-cyan-950 rounded-lg  flex flex-col items-center justify-center ">
+        <div class="mb-5" >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+          >
+            <path
+              class="text-cyan-700"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+            />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-white">Page Speed Optimization</h3>
+        <p class="text-gray-400 mb-4 text-center">
+          I'm the fuel behind the high speed of innumerable fast running WordPress websites. I have learned and practices all the technical aspects related to WordPress. Only speedy WordPress websites can run at full throttle to survive in this competitive world of the internet. So, my service will help you to make your website super fast!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="p-10 xl:mx-64">
+    <!----Tamplate start---->
+    <div class="h-14 w-1/2  flex justify-center  flex-col pb-10 xl:mt-12">
+      <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+        Pricing
+      </h1>
+      <div class="h-0.5 w-28 bg-zinc-700 ">
+        <div class="h-0.5 w-14 bg-cyan-700"></div>
+      </div>
+    </div>
+<!----Tamplate End---->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Pricing Plan 1 -->
+      <div class="bg-gray-800 p-6 rounded-lg hover:scale-95 transition ease-in-out delay-150  shadow-lg flex items-center justify-center flex-col">
+        <h3 class="text-xl font-semibold mb-4  text-white">SILVER</h3>
+        <ul class="text-gray-400 mb-4 space-y-2  text-center">
+          <li>3 Pages Website Design</li>
+          <li>Responsive Design</li>
+          <li>e-Commerce Functionality</li>
+          <li>Speed Optimization</li>
+          <li>Automatic Backup</li>
+          <li>Advanced Security</li>
+        </ul>
+        <p class="text-2xl font-bold mb-4  text-white">$150</p>
+        <button class="bg-blue-500 text-white py-2 px-4 rounded">Order Now</button>
+      </div>
+      <!-- Pricing Plan 2 -->
+      <div class="bg-gray-800 p-6 rounded-lg hover:scale-95 transition ease-in-out delay-150  shadow-lg flex items-center justify-center flex-col">
+        <h3 class="text-xl font-semibold mb-4 text-center text-white">GOLD</h3>
+        <ul class="text-gray-400 mb-4 space-y-2  text-center">
+          <li>5 Pages Website Design</li>
+          <li>Responsive Design</li>
+          <li>e-Commerce Functionality</li>
+          <li>Speed Optimization</li>
+          <li>Automatic Backup</li>
+          <li>Advanced Security</li>
+        </ul>
+        <p class="text-2xl font-bold mb-4  text-white">$250</p>
+        <button class="bg-blue-500 text-white py-2 px-4 rounded ">Order Now</button>
+      </div>
+      <!-- Pricing Plan 3 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-95 transition ease-in-out delay-150  flex items-center justify-center flex-col">
+        <h3 class="text-xl font-semibold mb-4 text-white">PLATINUM</h3>
+        <ul class="text-gray-400 mb-4 space-y-2  text-center">
+          <li>10 Pages Website Design</li>
+          <li>Responsive Design</li>
+          <li>e-Commerce Functionality</li>
+          <li>Speed Optimization</li>
+          <li>Automatic Backup</li>
+          <li>Advanced Security</li>
+        </ul>
+        <p class="text-2xl font-bold mb-4  text-white">$500</p>
+        <button class="bg-blue-500 text-white py-2 px-4 rounded ">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- FAQ Section -->
+  <section class="p-10 xl:mx-64" >
+    <!----Tamplate start---->
+    <div class="h-14   flex justify-center  flex-col pb-20 xl:mt-12 ">
+      <h1 class="text-white text-xl xl:text-2xl font-bold mb-2">
+        Frequently Asked Question
+      </h1>
+      <div class="h-0.5 w-36 bg-zinc-700 ">
+        <div class="h-0.5 w-14 bg-cyan-700"></div>
+      </div>
+    </div>
+<!----Tamplate End---->
+    <div class=" p-2 rounded-lg shadow-lg">
+      <div class="space-y-4">
+        <div>
+          <div class="w-full text-left text-lg font-semibold bg-gray-700 py-2 px-3 rounded xl:w-[800px]">
+            Do I need to buy the theme and plugins?
+          </div>
+          <div class="mt-2 text-gray-400">
+            Yes, you have to buy the theme and plugins. Alternatively, I can help you find free themes and plugins.
+          </div>
+        </div>
+        <div>
+          <div class="w-full text-left text-lg font-semibold bg-gray-700 py-2 px-3 rounded xl:w-[800px]">
+            Will you give me domain and hosting?
+          </div>
+          <div class="mt-2 text-gray-400">
+            No, I don't provide domain and hosting, but I can help guide you on where to get them.
+          </div>
+        </div>
+        <div>
+          <div class="w-full text-left text-lg font-semibold bg-gray-700 py-2 px-3 rounded xl:w-[800px]">
+            I'm confused about choosing a theme. Will you suggest one?
+          </div>
+          <div class="mt-2 text-gray-400">
+            Yes, I will suggest themes based on your business requirements.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-------------------- main  end----------------------------->
+
+
+
+
+
+
+
+
+
+     <!-------Footer STARTS---------->
+     <div
+     class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+   >
+     <div class="">
+       <ul
+         class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+       >
+         <li>
+           <a href="https://www.facebook.com/suvodevnath2" class="hover:text-cyan-700 xl:text-base">Facebook</a>
+         </li>
+         <li>
+           <a href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D" class="hover:text-cyan-700 xl:text-base">Linkedin</a>
+         </li>
+         <li>
+           <a href="https://github.com/SuvoDevNath" class="hover:text-cyan-700 xl:text-base">Github</a>
+         </li>
+         <li>
+           <a href="https://x.com/home" class="hover:text-cyan-700 xl:text-base">Twiter</a>
+         </li>
+       </ul>
+     </div>
+     <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+       Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+         Suvo </span
+       >• All Rights Reserved
+     </div>
+   </div>
+   <!--------Footer Ends-------->
+
+</div>
+
+
+
+
+   
+<script src="script.js" ></script>
+<script src="script2.js"></script>
+
+</body>
+</html>
+
+
+
