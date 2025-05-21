@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+
+  <body>
+          <!-------nav start------------>
+      <div
+        class="bg-zinc-900 sm:bg-sky-600
+md:bg-orange-600
+lg:bg-lime-600
+xl:bg-red-600
+2xl:bg-pink-600 h-14 px-4 w-full flex justify-between items-center fixed md:h-16  
+        md:px-16
+        "
+      >
+        <div class="flex justify-between items-center">
+          <img
+            src="./img/d-removebg-preview.png"
+            class="h-9  xl:h-10 "
+            alt=""
+          />
+          <h1 class=" font-semibold text-zinc-100 xl:text-xl">
+            Suvo <span class=" font-semibold text-gray-500">Dev Nath</span>
+          </h1>
+        </div>
+
+        <ul class="hidden font-medium md:flex  xl:text-base md:gap-5 lg:gap-9 text-gray-500 ">
+          <li class=" hover:text-white">
+            <a href="index.html">About me</a>
+          </li>
+          <li class="  hover:text-white">
+            <a href="resume.html">Resume</a>
+          </li>
+          <li class=" hover:text-white">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class=" hover:text-white">
+            <a href="services.html">Services</a>
+          </li>
+          <li class=" hover:text-white">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-------button start-------------->
+        <div class="w-8 h-10 md:hidden">
+          <button class="text-white " id="menu-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-8 mr-3"
+            >
+              <path
+                class="z-10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-------button End-------------->
+
+        <!-------nav hidden slide start-------------->
+        <div
+          class="h-[670px] w-[220px] ml-[95px] mt-[725px]  backdrop-blur-md p-10 fixed hidden translate-x-10 transition ease-in-out sm:w-[320px] sm:ml-[365px]"
+          id="nav-menu"
+        >
+          <div class="space-y-6 transition duration-1000 ease-in-out">
+            <!-- Navigation Menu -->
+            <nav
+              class="space-y-4 lg:block px-4 transition duration-1000 ease-in-out"
+            >
+              <a
+                href="index.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >About Me</a
+              >
+              <a
+                href="resume.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Resume</a
+              >
+              <a
+                href="portfolio.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Portfolio</a
+              >
+              <a
+                href="services.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Services</a
+              >
+              <a
+                href="blog.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Blog</a
+              >
+              <a
+                href="contact.html"
+                class="block text-lg text-white font-medium hover:text-cyan-700"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+        <!-------nav hidden  slide End-------------->
+      </div>
+      <!-------nav end-------------->
+
+
+    <div class="flex flex-col bg-zinc-900">
+
+
+
+
+      <!------- heading start------->
+      <div
+        class="border-t-[2px] border-b-[2px] border-neutral-800 mt-14 py-8 pl-6 flex flex-col 
+        sm:flex-row sm:justify-between sm:items-center sm:px-10 md:px-16"
+      >
+        <div class=" text-center flex items-center ">
+          <h1 class="text-4xl font-bold text-white xl:text-5xl">Resume</h1>
+        </div>
+        <div class="text-start flex items-start ">
+          <h1
+            class="font-light text-gray-400  lg:text-md xl:font-semibold"
+          >
+            5 Years of Experience
+          </h1>
+        </div>
+      </div>
+      <!--------heading end-------->
+
+
+
+
+      
+      <!-- ----------Education & Experience start------------------- -->
+      <div class="w-full 
+      px-6
+    md:px-[50px]
+    lg:px-[70px]
+    xl:px-[90px] 
+    2xl:px-[190px]
+    ">
+        <div class="lg:flex lg:justify-center lg:items-center lg:py-5  ">
+  <!-------Education  Start--------->
+        <div
+          class="  text-white flex flex-col justify-start items-start md:pl-16
+          "
+        >
+          
+        <!-- mini-headline starts-->
+        <div class="h-14 w-1/2 flex flex-col">
+          <h1 class="text-white text-2xl font-bold mb-1">
+            Education
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+      <!-- mini-headline ends-->
+
+            <div class="ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+          <!-------------------->
+          
+            <div class="  ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+         
+          <!-------------------->
+            
+            <div class="  ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+         
+      </div>
+        <!-------Education  End--------->
+      
+        <!-------Experience  Start------->
+          <div
+          class=" text-white flex flex-col justify-start items-start md:pl-16 pt-10 lg:pt-0
+          "
+        >
+          
+              <!-- mini-headline starts-->
+        <div class="h-14 w-1/2 flex flex-col">
+          <h1 class="text-white text-2xl font-bold mb-1">
+            Experience
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+      <!-- mini-headline ends-->
+
+            <div class="   ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+          <!-------------------->
+          
+            <div class="  ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+         
+          <!-------------------->
+            
+            <div class=" ml-6 pt-5 border-l-[1px] border-b-[1px] border-zinc-600">
+              <div class="flex items-end ">
+                <h1
+                  class="ring-2 bg-zinc-900 ring-cyan-900 inline-block text-sm p-1 px-2 rounded-3xl -ml-6"
+                >
+                  2019 - Present
+                </h1>
+                <h1 class="ml-5 text-xs text-zinc-400">Leading University</h1>
+              </div>
+              <div class="p-5">
+                <h1 class="text-lg font-bold leading-5">
+                  BSc in Computer Science Engineering
+                </h1>
+                <p class="text-sm font-normal pt-2">
+                  I am currently studying at CSE at Leading University
+                  University. I expect to be able to graduate from here by 2025.
+                </p>
+              </div>
+            </div>
+         
+         
+      </div>
+       
+         
+      </div>
+        <!-------Experience  End--------->
+        </div>
+      </div>
+
+      <!----Education & Experience end--------->
+
+
+
+
+      <!-----------Cirtificates skills start--------->
+      <div class="w-full 
+      px-6 py-10
+    md:px-[50px]
+    lg:px-[70px]
+    xl:px-[90px] 
+    2xl:px-[200px] bg-zinc-900 ">
+        <!-- Certificates Section start-->
+
+              <!-- mini-headline starts-->
+        <div class="h-14 w-1/2 flex flex-col">
+          <h1 class="text-white text-2xl font-bold mb-1">
+            Cirtificates
+          </h1>
+          <div class="h-0.5 w-28 bg-zinc-700">
+            <div class="h-0.5 w-14 bg-cyan-700"></div>
+          </div>
+        </div>
+      <!-- mini-headline ends-->
+
+
+            <!-----first cirtificate start----------->
+          <div class=" bg-lime-500 my-9 pl-7 flex flex-col gap-5 md:flex-row">
+          <!-----first cirtificate start----------->
+             <div
+              class="h-36 flex justify-center items-center gap-2   rounded-md bg-yellow-700 overflow-hidden px-2"
+            >
+              <div class=" bg-pink-400 h-32 w-48">
+                <img
+                src="https://t4.ftcdn.net/jpg/03/15/73/47/360_F_315734795_CVzhCXffWnFe5qLXbKnHZVaLbv0uICCK.jpg"
+                class=" rounded-lg h-full w-full"
+              />
+              </div>
+              <div class="bg-zinc-900 py-5 px-4 rounded-r-md">
+                <h3 class="text-md font-semibold text-white">
+                  Complete Web Development with Jhankar Mahbub
+                </h3>
+                <p class="text-sm text-gray-400">Programming Hero</p>
+                <p class="text-sm text-gray-400">31 October 2020</p>
+              </div>
+            </div>
+            <!-----first cirtificate end----------->
+
+            <!-----second cirtificate start----------->
+               <div
+              class="h-36 flex justify-center items-center gap-2   rounded-md bg-yellow-700 overflow-hidden px-2"
+            >
+              <div class=" bg-pink-400 h-32 w-48">
+                <img
+                src="https://t4.ftcdn.net/jpg/03/15/73/47/360_F_315734795_CVzhCXffWnFe5qLXbKnHZVaLbv0uICCK.jpg"
+                class=" rounded-lg h-full w-full"
+              />
+              </div>
+              <div class="bg-zinc-900 py-5 px-4 rounded-r-md">
+                <h3 class="text-md font-semibold text-white">
+                  Complete Web Development with Jhankar Mahbub
+                </h3>
+                <p class="text-sm text-gray-400">Programming Hero</p>
+                <p class="text-sm text-gray-400">31 October 2020</p>
+              </div>
+            </div>
+            <!-----second cirtificate end----------->
+          </div>
+        
+
+        <div class="items-start justify-between xl:flex xl:w-full gap-4">
+          <!-- Design Skills Section -->
+          <div class="mb-12 xl:pl-3 xl:w-3/6">
+            <!---------------->
+            <div class="h-14 w-1/2 flex justify-center flex-col py-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Design Skills
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+            <!---------------->
+            <div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Photoshop</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Illustrator</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Adobe XD</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">Figma</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coding Skills Section -->
+          <div class="xl:pl-3 xl:w-3/6">
+            <!---------------->
+            <div class="h-14 w-1/2 flex justify-center flex-col py-4 pb-10">
+              <h1 class="text-white text-xl xl:text-2xl font-bold mb-1">
+                Coding Skills
+              </h1>
+              <div class="h-0.5 w-28 bg-zinc-700">
+                <div class="h-0.5 w-14 bg-cyan-700"></div>
+              </div>
+            </div>
+            <!---------------->
+            <div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">HTML / CSS</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 100%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">JavaScript</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">PHP</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <p class="mb-1 text-white">React</p>
+                <div class="bg-gray-700 h-2 rounded-lg">
+                  <div
+                    class="bg-cyan-700 h-2 rounded-lg"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------Cirtificates skills ends--------------->
+
+
+
+
+
+
+
+
+
+
+
+      <!----------------Footer Ends--------------------->
+      <div
+        class="bg-neutral-800 py-4 w-full text-lg flex flex-col xl:flex-row justify-between xl:px-10 items-center"
+      >
+        <div class="">
+          <ul
+            class="text-white flex space-x-5 xl:space-x-10 text-sm xl:text-lg"
+          >
+            <li>
+              <a
+                href="https://www.facebook.com/suvodevnath2"
+                class="hover:text-cyan-700 xl:text-base"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/suvo-dev-nath?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaNK9w%2BVR7ybhjYggd3eUQ%3D%3D"
+                class="hover:text-cyan-700 xl:text-base"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/SuvoDevNath"
+                class="hover:text-cyan-700 xl:text-base"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://x.com/home"
+                class="hover:text-cyan-700 xl:text-base"
+                >Twiter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="text-white text-sm px-5 text-center pt-2 xl:text-b">
+          Copyright © 2023 •<span class="text-cyan-700 xl:text-base">
+            Suvo </span
+          >• All Rights Reserved
+        </div>
+      </div>
+      <!-- --------------------------Footer Ends------------------------------------- -->
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
